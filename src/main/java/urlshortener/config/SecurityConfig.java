@@ -1,4 +1,4 @@
-package com.darklord.url_shortener.config;
+package urlshortener.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

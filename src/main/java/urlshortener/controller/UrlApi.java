@@ -1,7 +1,6 @@
-package com.darklord.url_shortener.controller;
+package urlshortener.controller;
 
-import com.darklord.url_shortener.dto.UrlRequest;
-import com.darklord.url_shortener.dto.UrlResponse;
+import urlshortener.dto.UrlRequest;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.responses.ApiResponses;

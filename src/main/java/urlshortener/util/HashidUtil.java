@@ -1,4 +1,4 @@
-package com.darklord.url_shortener.util;
+package urlshortener.util;
 
 import org.hashids.Hashids;
 import org.springframework.stereotype.Service;

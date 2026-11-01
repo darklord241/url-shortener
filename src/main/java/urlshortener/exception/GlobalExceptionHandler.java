@@ -1,4 +1,4 @@
-package com.darklord.url_shortener.exception;
+package urlshortener.exception;
 
 import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.http.HttpStatus;

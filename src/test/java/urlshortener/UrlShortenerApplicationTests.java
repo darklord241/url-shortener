@@ -1,4 +1,4 @@
-package com.darklord.url_shortener;
+package urlshortener;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

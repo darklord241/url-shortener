@@ -1,8 +1,8 @@
-package com.darklord.url_shortener.controller;
+package urlshortener.controller;
 
-import com.darklord.url_shortener.dto.UrlRequest;
-import com.darklord.url_shortener.dto.UrlResponse;
-import com.darklord.url_shortener.service.UrlService;
+import urlshortener.dto.UrlRequest;
+import urlshortener.dto.UrlResponse;
+import urlshortener.service.UrlService;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import jakarta.persistence.EntityNotFoundException;
 import org.junit.jupiter.api.Test;
