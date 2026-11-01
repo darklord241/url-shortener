@@ -1,4 +1,4 @@
-package com.darklord.url_shortener.repository;
+package urlshortener.repository;
 
 import java.util.Optional;
 
@@ -8,7 +8,7 @@ import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
-import com.darklord.url_shortener.model.UrlEntity;
+import urlshortener.model.UrlEntity;
 
 
 @Repository

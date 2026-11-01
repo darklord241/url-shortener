@@ -1,4 +1,4 @@
-package com.darklord.url_shortener.config;
+package urlshortener.config;
 
 import io.swagger.v3.oas.models.OpenAPI;
 import org.springframework.context.annotation.Bean;

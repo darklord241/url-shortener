@@ -1,4 +1,4 @@
-package com.darklord.url_shortener.service;
+package urlshortener.service;
 
 import java.util.List;
 
@@ -8,11 +8,11 @@ import org.springframework.stereotype.Service;
 import jakarta.persistence.EntityNotFoundException;
 import jakarta.transaction.Transactional;
 
-import com.darklord.url_shortener.repository.UrlRepo;
-import com.darklord.url_shortener.dto.UrlRequest;
-import com.darklord.url_shortener.dto.UrlResponse;
-import com.darklord.url_shortener.model.UrlEntity;
-import com.darklord.url_shortener.util.HashidUtil;
+import urlshortener.repository.UrlRepo;
+import urlshortener.dto.UrlRequest;
+import urlshortener.dto.UrlResponse;
+import urlshortener.model.UrlEntity;
+import urlshortener.util.HashidUtil;
 
 
 @Service

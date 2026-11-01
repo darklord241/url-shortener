@@ -1,4 +1,4 @@
-package com.darklord.url_shortener.util;
+package urlshortener.util;
 
 public class Base62Util {
     private static final String ALLOWED_CHARACTERS = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
@@ -16,5 +16,9 @@ public class Base62Util {
             input = input/BASE;
         }
         return encodedString.reverse().toString();
+    }
+    public static void main(String[] args) {
+        long val = 123456;
+        System.out.println(encode(val));
     }
 }
